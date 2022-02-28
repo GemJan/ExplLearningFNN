@@ -1,0 +1,27 @@
+Die Idee dieser Arbeit ist es, die Methode von Možina et al. [1] zur Nutzung von
+Expertenargumenten in neuronale Netze einzubinden. Dies geschieht durch Verwendung 
+der Methode von Ross et al. [2], welche den Fehler des Netzes um einen Term
+erweitert, der die Aufmerksamkeit auf falsche Attribute bestraft. Genauer gesagt
+stellen wir einen neuen Ansatz vor, der neben der Erkennung von Attributen mit
+positivem Einfluss auch zwischen negativen und neutralen unterscheidet. Hier schlagen 
+wir neue Varianten vor, welche die Fähigkeiten unseres Netzwerkes, spezifizierte
+Erklärungen zu lernen, verbessern sollen. Zusätzlich wollen wir die Ergebnisse durch
+die Verwendung von Shapley Werte verbessern, welche uns viele wünschenswerte
+Eigenschaften bieten. Dadurch konzentrieren wir das neuronale Netz darauf, Gründe
+für Vorhersagen zu lernen, die den Argumenten der Experten ähneln. Dies führt zu
+einer erhöhten Vorhersehbarkeit von auf unserem Netzwerk generierten Erklärungen,
+welche besser in menschlich verstehbaren Gründen fundiert sind.
+
+
+
+Quellen:
+
+[1]Mozina, M., Zabkar, J., Bratko, I.: Argument based machine learning. 
+Artif. Intell. 171(10-15), 922–937 (2007), https://doi.org/10.1016/j.artint.2007.04.007
+
+[2]Ross, A.S., Hughes, M.C., Doshi-Velez, F.: Right for the right reasons: Training
+differentiable models by constraining their explanations. In: Sierra, C. (ed.)
+Proceedings of the Twenty-Sixth International Joint Conference on Artificial
+Intelligence, IJCAI 2017, Melbourne, Australia, August 19-25, 2017. pp. 2662–
+2670. ijcai.org (2017). https://doi.org/10.24963/ijcai.2017/371, https://doi.
+org/10.24963/ijcai.2017/371

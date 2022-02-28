@@ -1,0 +1,25 @@
+The idea of this thesis is to adapt Moˇzina et al.’s method [1] of exploiting
+experts’ arguments to neural networks. This is done by incorporating the method
+of Ross et al. [2] to include an explanatory loss, which penalises attention on
+the wrong features. More specifically, we present a novel approach that in addition
+to recognising positive influencing features distinguishes between negative and 
+neutral ones. Here we propose new variants of reinforcing correct explanations in
+our losses. Additionally, we want to improve results by using Shapley values 
+contributions, which provides many desirable traits. In doing so we’re concentrating
+the neural network to learn reasons for predictions that were specified in the
+experts’ arguments. This leads to more predictable results of explanations generated
+on our network, which do not rely on unfamiliar dependencies.
+
+
+
+References:
+
+[1]Mozina, M., Zabkar, J., Bratko, I.: Argument based machine learning. 
+Artif. Intell. 171(10-15), 922–937 (2007), https://doi.org/10.1016/j.artint.2007.04.007
+
+[2]Ross, A.S., Hughes, M.C., Doshi-Velez, F.: Right for the right reasons: Training
+differentiable models by constraining their explanations. In: Sierra, C. (ed.)
+Proceedings of the Twenty-Sixth International Joint Conference on Artificial
+Intelligence, IJCAI 2017, Melbourne, Australia, August 19-25, 2017. pp. 2662–
+2670. ijcai.org (2017). https://doi.org/10.24963/ijcai.2017/371, https://doi.
+org/10.24963/ijcai.2017/371
