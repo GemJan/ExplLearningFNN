@@ -1,10 +1,12 @@
 # Thesis Jan Gemander
 This repository contains the files for the master thesis "Explanation-based Learning with
-Feedforward Neural Networks" by Jan Gemander. 
+Feedforward Neural Networks" for the the [Analytic Computing](https://www.ipvs.uni-stuttgart.de/departments/ac/) department at the University of Stuttgart by Jan Gemander. 
 
 "Explanation-basedLearningFNN_JanGemander.pdf" contains the thesis itself with a signed declaration appended.
+The provided titlepage form in 6.2a of the [thesis procedure guidelines](https://www.ipvs.uni-stuttgart.de/departments/ac/teaching/thesis_procedure/) has quite bad formatting when flattening the forms (e.g. printing), 
+a cleaned variant which was not used in the thesis is provided as "titlepageCleaned.pdf".
 The proposal from the start of the thesis can be found in "Proposal.pdf".
-Additionally included are "abstract.pdf" the abtract of our thesis and "zusammenfassung.pdf" a german abstract.
+Additionally included are the abtract of our thesis "abstract.txt" and a german abstract "zusammenfassung.txt" in textform.
 
 ## annotationScripts
 Contains files that were used to annotate our data with arguments. 
